@@ -1,0 +1,13 @@
+#ask the user for two numbers and then multiply em together
+
+def multiply_numbers(a,b)
+  puts "What is the first number?"
+  a = gets.chomp.to_i
+  puts "What is the second number?"
+  b = gets.chomp.to_i
+  puts "What is the third number"
+  c = gets.chomp.to_i
+  puts a*b*c
+end
+
+multiply_numbers

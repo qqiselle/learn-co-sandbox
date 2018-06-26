@@ -1,0 +1,4 @@
+def multiply_numbers(a,b)
+puts a*b
+
+
